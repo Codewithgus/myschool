@@ -117,8 +117,8 @@ body {
 /* nav ul list */
 .nav-items {
   list-style-type: none;
-  margin: 0.9rem, 0;
-  border-bottom: 1px solid black;
+  margin: 1rem;
+  border-bottom: 1px solid white;
 }
 
 /* nav links */
