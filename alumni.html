@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>alumni</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      /* container for holding the boxes */
+      .alumni-container {
+        background-color: grey;
+        width: 100vw;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 14px;
+        padding-top: 45px;
+        padding-bottom: 15px;
+        /* margin-top: 2px; */
+        justify-items: center;
+        position: relative;
+      }
+
+      .alumni-content {
+        background-color: rgba(255, 255, 255, 0.87);
+        width: 19.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.027);
+      }
+
+      .alumni-content img {
+        width: 100%;
+        /* object-fit: cover; */
+
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+      }
+      .alumni-content p {
+        text-transform: uppercase;
+      }
+
+      .alumni-content a {
+        background-color: rgba(0, 0, 255, 0.808);
+        width: 90px;
+        padding: 10px;
+        border-radius: 30px;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: white;
+      }
+      .alumni-content a:hover {
+        background-color: red;
+        transition-duration: 0.5s;
+      }
+
+      .alumni-content p,
+      img,
+      a {
+        margin-bottom: 13px;
+      }
+
+      /* for tablet */
+      @media screen and (min-width: 768px) {
+        .alumni-container {
+          grid-template-columns: repeat(2, 1fr);
+          bottom: 63px;
+          padding-bottom: 1rem;
+        }
+
+        .footer {
+          bottom: 61px;
+        }
+      }
+
+      /* for desktop */
+      @media screen and (min-width: 1024px) {
+        .alumni-container {
+          grid-template-columns: repeat(3, 1fr);
+        }
+
+        .alumni-content {
+          width: 19rem;
+        }
+
+        .footer {
+          bottom: 61px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav id="nav-bar">
+      <svg
+        onclick="myfunc()"
+        class="nav-menu"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 448 512"
+      >
+        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+        <path
+          d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+        />
+      </svg>
+      <ul class="nav-lists">
+        <li class="nav-items"><a href="index.html">home</a></li>
+        <li class="nav-items"><a href="about.html">about</a></li>
+        <li class="nav-items"><a href="alumni.html">alumni</a></li>
+        <li class="nav-items"><a href="images.html">images</a></li>
+      </ul>
+    </nav>
+
+    <div class="alumni-container">
+      <div class="alumni-content">
+        <img
+          src="../images/priscilla-du-preez-ggeZ9oyI-PE-unsplash (1).jpg"
+          alt=""
+        />
+        <p>augustine gayflor</p>
+        <a href="#">view profile</a>
+      </div>
+
+      <div class="alumni-content">
+        <img src="../images/priscilla-du-preez-ggeZ9oyI-PE-unsplash (1).jpg" />
+        <p>augustine gayflor</p>
+        <a href="#">view profile</a>
+      </div>
+      <div class="alumni-content">
+        <img
+          src="../images/priscilla-du-preez-ggeZ9oyI-PE-unsplash (1).jpg"
+          alt=""
+        />
+        <p>augustine gayflor</p>
+        <a href="#">view profile</a>
+      </div>
+      <div class="alumni-content">
+        <img
+          src="../images/priscilla-du-preez-ggeZ9oyI-PE-unsplash (1).jpg"
+          alt=""
+        />
+        <p>augustine gayflor</p>
+        <a href="#">view profile</a>
+      </div>
+      <div class="alumni-content">
+        <img
+          src="../images/priscilla-du-preez-ggeZ9oyI-PE-unsplash (1).jpg"
+          alt=""
+        />
+        <p>augustine gayflor</p>
+        <a href="#">view profile</a>
+      </div>
+      <div class="alumni-content">
+        <img
+          src="../images/priscilla-du-preez-ggeZ9oyI-PE-unsplash (1).jpg"
+          alt=""
+        />
+        <p>augustine gayflor</p>
+        <a href="#">view profile</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-icon">
+        <img src="../images/whatsapp.jpg" alt="" />
+        <img src="../images/whatsapp.jpg" alt="" />
+        <img src="../images/whatsapp.jpg" alt="" />
+      </div>
+
+      <ul class="footer-content">
+        <li class="footer-items"><a href="index.html">home</a></li>
+        &nbsp;&nbsp; |
+        <li class="footer-items"><a href="about.html">about</a></li>
+        &nbsp; &nbsp;|
+        <li class="footer-items"><a href="alumni.html">alumni</a></li>
+        &nbsp;&nbsp;|
+        <li class="footer-items"><a href="images.html">images</a></li>
+        &nbsp;&nbsp;|
+      </ul>
+    </div>
+
+    <script>
+      function myfunc() {
+        const para = document.getElementById("nav-bar");
+        para.classList.toggle("collapse");
+      }
+    </script>
+  </body>
+</html>
